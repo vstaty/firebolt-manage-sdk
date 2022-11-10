@@ -24,7 +24,7 @@ test("Accessory.pair()", () => {
   const expected: Accessory.AccessoryInfo = {
     make: "UEI",
     model: "PR1",
-    protocol: Accessory.AccessoryProtocol.BLUETOOTH_LE,
+    protocol: Accessory.AccessoryPOTH_LE,
     type: Accessory.AccessoryType.REMOTE,
   };
   return Accessory.pair(
