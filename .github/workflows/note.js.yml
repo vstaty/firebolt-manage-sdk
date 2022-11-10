@@ -27,6 +27,6 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
+        cache: 'npm '
     # For the core sdk, simply running npm ci triggers a bunch of valiations to be run
     - run: npm ci
